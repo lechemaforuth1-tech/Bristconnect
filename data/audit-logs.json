@@ -1,0 +1,29 @@
+[
+  {
+    "id": "LOG-1794235521460-183",
+    "timestamp": "2026-11-09T14:45:21.460Z",
+    "user": "Initial Bootstrap",
+    "role": "Data Scientist",
+    "action": "Bulk Scoring",
+    "category": "Model",
+    "details": "Scored all 1250 customer records."
+  },
+  {
+    "id": "LOG-1794235516830-123",
+    "timestamp": "2026-11-09T14:45:16.830Z",
+    "user": "Initial Bootstrap",
+    "role": "Data Scientist",
+    "action": "Model Training",
+    "category": "Model",
+    "details": "Trained 4 models. Selected champion: Gradient Boosting (ROC-AUC: 0.779, F1: 0.576)"
+  },
+  {
+    "id": "LOG-1794234670643-40",
+    "timestamp": "2026-11-09T14:31:10.643Z",
+    "user": "System",
+    "role": "Administrator",
+    "action": "Dataset Bootstrap",
+    "category": "Dataset",
+    "details": "Initialized default BritConnect active dataset with 1,250 verified records."
+  }
+]

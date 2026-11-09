@@ -1,0 +1,24 @@
+[
+  {
+    "id": "ALT-101",
+    "alertType": "Critical High-Value Risk",
+    "severity": "Critical",
+    "affectedCustomerOrSegment": "Enterprise Customers (Monthly Charge > £80)",
+    "triggerCondition": "Multiple network outages + CSAT < 5 in last 60 days",
+    "timestamp": "2026-11-09T10:31:10.644Z",
+    "suggestedAction": "Deploy priority technical engineer and assign VIP concierge account owner.",
+    "assignedOwner": "Technical Operations & VIP Retention",
+    "status": "Unread"
+  },
+  {
+    "id": "ALT-102",
+    "alertType": "Contract Expiry Exposure",
+    "severity": "High",
+    "affectedCustomerOrSegment": "Month-to-Month Contract Segment",
+    "triggerCondition": "Competitor offer acknowledged with month-to-month flexibility",
+    "timestamp": "2026-11-09T02:31:10.644Z",
+    "suggestedAction": "Initiate automated renewal offer sequence with 24-month fixed price guarantee.",
+    "assignedOwner": "Consumer Retention Team",
+    "status": "Acknowledged"
+  }
+]

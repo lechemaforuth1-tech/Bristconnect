@@ -1,0 +1,16 @@
+{
+  "riskThresholds": {
+    "lowMax": 0.25,
+    "moderateMax": 0.5,
+    "highMax": 0.75
+  },
+  "financialAssumptions": {
+    "grossMarginPct": 65,
+    "averageContactCostGbp": 12.5,
+    "defaultIncentiveCostGbp": 45,
+    "discountRatePct": 5
+  },
+  "retentionPolicyDays": 730,
+  "enableGeminiAI": true,
+  "autoChampionSelection": true
+}

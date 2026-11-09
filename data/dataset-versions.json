@@ -1,0 +1,19 @@
+[
+  {
+    "id": "ds-britconnect-prod-01",
+    "version": "v1.0.0",
+    "filename": "BritConnect_National_Telecom_Q3.csv",
+    "uploadedAt": "2026-11-09T14:31:10.628Z",
+    "uploader": "System Administrator (Initial Bootstrap)",
+    "rowCount": 1250,
+    "activeCount": 894,
+    "churnedCount": 356,
+    "fieldCount": 38,
+    "dataQualityScore": 98,
+    "validationStatus": "Valid",
+    "cleaningStatus": "Cleaned",
+    "checksum": "sha256-bc-q3-prod-canonical",
+    "isActive": true,
+    "notes": "Initial confirmed baseline dataset covering 1,250 UK telecoms accounts across Consumer, Small Business, and Enterprise."
+  }
+]

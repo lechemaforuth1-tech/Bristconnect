@@ -1,0 +1,6 @@
+{
+  "name": "BritConnect AI — Customer Churn Intelligence Platform",
+  "description": "Enterprise customer churn intelligence, ML prediction, revenue exposure analytics, and AI-powered retention platform for BritConnect.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

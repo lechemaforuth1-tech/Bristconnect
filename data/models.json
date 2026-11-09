@@ -1,0 +1,1366 @@
+{
+  "models": [
+    {
+      "algorithm": "Gradient Boosting",
+      "accuracy": 0.777,
+      "precision": 0.633,
+      "recall": 0.528,
+      "f1Score": 0.576,
+      "rocAuc": 0.779,
+      "prAuc": 0.642,
+      "brierScore": 0.16,
+      "confusionMatrix": {
+        "trueNegative": 157,
+        "falsePositive": 22,
+        "falseNegative": 34,
+        "truePositive": 38
+      },
+      "rocCurve": [
+        {
+          "fpr": 0,
+          "tpr": 0.056
+        },
+        {
+          "fpr": 0,
+          "tpr": 0.014
+        },
+        {
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "fpr": 0.011,
+          "tpr": 0.111
+        },
+        {
+          "fpr": 0.022,
+          "tpr": 0.236
+        },
+        {
+          "fpr": 0.034,
+          "tpr": 0.264
+        },
+        {
+          "fpr": 0.039,
+          "tpr": 0.361
+        },
+        {
+          "fpr": 0.056,
+          "tpr": 0.458
+        },
+        {
+          "fpr": 0.123,
+          "tpr": 0.528
+        },
+        {
+          "fpr": 0.173,
+          "tpr": 0.583
+        },
+        {
+          "fpr": 0.229,
+          "tpr": 0.639
+        },
+        {
+          "fpr": 0.274,
+          "tpr": 0.708
+        },
+        {
+          "fpr": 0.33,
+          "tpr": 0.75
+        },
+        {
+          "fpr": 0.397,
+          "tpr": 0.778
+        },
+        {
+          "fpr": 0.514,
+          "tpr": 0.833
+        },
+        {
+          "fpr": 0.665,
+          "tpr": 0.917
+        },
+        {
+          "fpr": 0.883,
+          "tpr": 0.972
+        },
+        {
+          "fpr": 0.989,
+          "tpr": 1
+        },
+        {
+          "fpr": 1,
+          "tpr": 1
+        }
+      ],
+      "prCurve": [
+        {
+          "recall": 0,
+          "precision": 1
+        },
+        {
+          "recall": 0,
+          "precision": 1
+        },
+        {
+          "recall": 0,
+          "precision": 1
+        },
+        {
+          "recall": 0.014,
+          "precision": 1
+        },
+        {
+          "recall": 0.056,
+          "precision": 1
+        },
+        {
+          "recall": 0.111,
+          "precision": 0.8
+        },
+        {
+          "recall": 0.236,
+          "precision": 0.81
+        },
+        {
+          "recall": 0.264,
+          "precision": 0.76
+        },
+        {
+          "recall": 0.361,
+          "precision": 0.788
+        },
+        {
+          "recall": 0.458,
+          "precision": 0.767
+        },
+        {
+          "recall": 0.528,
+          "precision": 0.633
+        },
+        {
+          "recall": 0.583,
+          "precision": 0.575
+        },
+        {
+          "recall": 0.639,
+          "precision": 0.529
+        },
+        {
+          "recall": 0.708,
+          "precision": 0.51
+        },
+        {
+          "recall": 0.75,
+          "precision": 0.478
+        },
+        {
+          "recall": 0.778,
+          "precision": 0.441
+        },
+        {
+          "recall": 0.833,
+          "precision": 0.395
+        },
+        {
+          "recall": 0.917,
+          "precision": 0.357
+        },
+        {
+          "recall": 0.972,
+          "precision": 0.307
+        },
+        {
+          "recall": 1,
+          "precision": 0.287
+        },
+        {
+          "recall": 1,
+          "precision": 0.289
+        }
+      ],
+      "featureImportance": [
+        {
+          "feature": "Contract: Month-to-Month",
+          "importance": 0.184,
+          "direction": "increases_risk",
+          "description": "Lack of commitment contract drastically increases cancellation flexibility"
+        },
+        {
+          "feature": "Competitor Offer: Yes",
+          "importance": 0.181,
+          "direction": "increases_risk",
+          "description": "Active rival promotions provide immediate alternative options"
+        },
+        {
+          "feature": "Network Outages 12M",
+          "importance": 0.158,
+          "direction": "increases_risk",
+          "description": "Repeated service outages drive acute customer dissatisfaction"
+        },
+        {
+          "feature": "Tenure Months",
+          "importance": 0.147,
+          "direction": "reduces_risk",
+          "description": "Longer customer tenure provides protective loyalty cushioning"
+        },
+        {
+          "feature": "Satisfaction Score 1 10",
+          "importance": 0.147,
+          "direction": "reduces_risk",
+          "description": "Low satisfaction score correlates directly with competitor switching"
+        },
+        {
+          "feature": "Complaints 12M",
+          "importance": 0.109,
+          "direction": "increases_risk",
+          "description": "Customer escalation count indicates severe relationship strain"
+        },
+        {
+          "feature": "NPS Score",
+          "importance": 0.106,
+          "direction": "reduces_risk",
+          "description": "Impacts churn propensity via nps score"
+        },
+        {
+          "feature": "Contract: 24+ Month",
+          "importance": 0.097,
+          "direction": "reduces_risk",
+          "description": "Impacts churn propensity via contract: 24+ month"
+        },
+        {
+          "feature": "Auto Renew: Yes",
+          "importance": 0.088,
+          "direction": "reduces_risk",
+          "description": "Impacts churn propensity via auto renew: yes"
+        },
+        {
+          "feature": "Direct Debit: Yes",
+          "importance": 0.083,
+          "direction": "reduces_risk",
+          "description": "Impacts churn propensity via direct debit: yes"
+        },
+        {
+          "feature": "Contract: 12 Month",
+          "importance": 0.077,
+          "direction": "reduces_risk",
+          "description": "Impacts churn propensity via contract: 12 month"
+        },
+        {
+          "feature": "Support Tickets 12M",
+          "importance": 0.044,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via support tickets 12m"
+        },
+        {
+          "feature": "Overage Charges GBP",
+          "importance": 0.039,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via overage charges gbp"
+        },
+        {
+          "feature": "Monthly Charge GBP",
+          "importance": 0.035,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via monthly charge gbp"
+        },
+        {
+          "feature": "Failed Payments 12M",
+          "importance": 0.035,
+          "direction": "increases_risk",
+          "description": "Payment friction and billing difficulties precede involuntary and voluntary churn"
+        },
+        {
+          "feature": "Discount Percent",
+          "importance": 0.031,
+          "direction": "reduces_risk",
+          "description": "Impacts churn propensity via discount percent"
+        },
+        {
+          "feature": "Segment: Enterprise",
+          "importance": 0.022,
+          "direction": "reduces_risk",
+          "description": "Impacts churn propensity via segment: enterprise"
+        },
+        {
+          "feature": "Average Resolution Hours",
+          "importance": 0.016,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via average resolution hours"
+        },
+        {
+          "feature": "Late Payments 12M",
+          "importance": 0.015,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via late payments 12m"
+        },
+        {
+          "feature": "Segment: Consumer",
+          "importance": 0.01,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via segment: consumer"
+        },
+        {
+          "feature": "Average Monthly Usage GB",
+          "importance": 0.004,
+          "direction": "reduces_risk",
+          "description": "Impacts churn propensity via average monthly usage gb"
+        },
+        {
+          "feature": "Segment: Small Business",
+          "importance": 0.002,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via segment: small business"
+        }
+      ],
+      "trainingDurationMs": 19,
+      "isChampion": true,
+      "version": "v1.135",
+      "trainedAt": "2026-11-09T14:45:16.828Z",
+      "trainSampleSize": 999,
+      "testSampleSize": 251
+    },
+    {
+      "algorithm": "Random Forest",
+      "accuracy": 0.713,
+      "precision": 0,
+      "recall": 0,
+      "f1Score": 0,
+      "rocAuc": 0.519,
+      "prAuc": 0.387,
+      "brierScore": 0.251,
+      "confusionMatrix": {
+        "trueNegative": 179,
+        "falsePositive": 0,
+        "falseNegative": 72,
+        "truePositive": 0
+      },
+      "rocCurve": [
+        {
+          "fpr": 0,
+          "tpr": 0.014
+        },
+        {
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "fpr": 0.006,
+          "tpr": 0.042
+        },
+        {
+          "fpr": 0.235,
+          "tpr": 0.306
+        },
+        {
+          "fpr": 0.553,
+          "tpr": 0.542
+        },
+        {
+          "fpr": 1,
+          "tpr": 1
+        }
+      ],
+      "prCurve": [
+        {
+          "recall": 0,
+          "precision": 1
+        },
+        {
+          "recall": 0,
+          "precision": 1
+        },
+        {
+          "recall": 0,
+          "precision": 1
+        },
+        {
+          "recall": 0,
+          "precision": 1
+        },
+        {
+          "recall": 0,
+          "precision": 1
+        },
+        {
+          "recall": 0,
+          "precision": 1
+        },
+        {
+          "recall": 0,
+          "precision": 1
+        },
+        {
+          "recall": 0,
+          "precision": 1
+        },
+        {
+          "recall": 0,
+          "precision": 1
+        },
+        {
+          "recall": 0,
+          "precision": 1
+        },
+        {
+          "recall": 0,
+          "precision": 1
+        },
+        {
+          "recall": 0,
+          "precision": 1
+        },
+        {
+          "recall": 0,
+          "precision": 1
+        },
+        {
+          "recall": 0,
+          "precision": 1
+        },
+        {
+          "recall": 0,
+          "precision": 1
+        },
+        {
+          "recall": 0,
+          "precision": 1
+        },
+        {
+          "recall": 0.014,
+          "precision": 1
+        },
+        {
+          "recall": 0.042,
+          "precision": 0.75
+        },
+        {
+          "recall": 0.306,
+          "precision": 0.344
+        },
+        {
+          "recall": 0.542,
+          "precision": 0.283
+        },
+        {
+          "recall": 1,
+          "precision": 0.287
+        }
+      ],
+      "featureImportance": [
+        {
+          "feature": "Tenure Months",
+          "importance": 0.053,
+          "direction": "increases_risk",
+          "description": "Longer customer tenure provides protective loyalty cushioning"
+        },
+        {
+          "feature": "Failed Payments 12M",
+          "importance": 0.053,
+          "direction": "increases_risk",
+          "description": "Payment friction and billing difficulties precede involuntary and voluntary churn"
+        },
+        {
+          "feature": "Network Outages 12M",
+          "importance": 0.047,
+          "direction": "increases_risk",
+          "description": "Repeated service outages drive acute customer dissatisfaction"
+        },
+        {
+          "feature": "Auto Renew: Yes",
+          "importance": 0.037,
+          "direction": "reduces_risk",
+          "description": "Impacts churn propensity via auto renew: yes"
+        },
+        {
+          "feature": "Monthly Charge GBP",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via monthly charge gbp"
+        },
+        {
+          "feature": "Average Monthly Usage GB",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via average monthly usage gb"
+        },
+        {
+          "feature": "Overage Charges GBP",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via overage charges gbp"
+        },
+        {
+          "feature": "Discount Percent",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via discount percent"
+        },
+        {
+          "feature": "Late Payments 12M",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via late payments 12m"
+        },
+        {
+          "feature": "Support Tickets 12M",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via support tickets 12m"
+        },
+        {
+          "feature": "Complaints 12M",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Customer escalation count indicates severe relationship strain"
+        },
+        {
+          "feature": "Average Resolution Hours",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via average resolution hours"
+        },
+        {
+          "feature": "Satisfaction Score 1 10",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Low satisfaction score correlates directly with competitor switching"
+        },
+        {
+          "feature": "NPS Score",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via nps score"
+        },
+        {
+          "feature": "Contract: Month-to-Month",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Lack of commitment contract drastically increases cancellation flexibility"
+        },
+        {
+          "feature": "Contract: 12 Month",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via contract: 12 month"
+        },
+        {
+          "feature": "Contract: 24+ Month",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via contract: 24+ month"
+        },
+        {
+          "feature": "Direct Debit: Yes",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via direct debit: yes"
+        },
+        {
+          "feature": "Competitor Offer: Yes",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Active rival promotions provide immediate alternative options"
+        },
+        {
+          "feature": "Segment: Consumer",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via segment: consumer"
+        },
+        {
+          "feature": "Segment: Small Business",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via segment: small business"
+        },
+        {
+          "feature": "Segment: Enterprise",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via segment: enterprise"
+        }
+      ],
+      "trainingDurationMs": 9,
+      "isChampion": false,
+      "version": "v1.811",
+      "trainedAt": "2026-11-09T14:45:16.809Z",
+      "trainSampleSize": 999,
+      "testSampleSize": 251
+    },
+    {
+      "algorithm": "Logistic Regression",
+      "accuracy": 0.741,
+      "precision": 0.551,
+      "recall": 0.528,
+      "f1Score": 0.539,
+      "rocAuc": 0.755,
+      "prAuc": 0.59,
+      "brierScore": 0.181,
+      "confusionMatrix": {
+        "trueNegative": 148,
+        "falsePositive": 31,
+        "falseNegative": 34,
+        "truePositive": 38
+      },
+      "rocCurve": [
+        {
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "fpr": 0.006,
+          "tpr": 0.083
+        },
+        {
+          "fpr": 0.017,
+          "tpr": 0.153
+        },
+        {
+          "fpr": 0.034,
+          "tpr": 0.236
+        },
+        {
+          "fpr": 0.056,
+          "tpr": 0.292
+        },
+        {
+          "fpr": 0.067,
+          "tpr": 0.375
+        },
+        {
+          "fpr": 0.078,
+          "tpr": 0.389
+        },
+        {
+          "fpr": 0.106,
+          "tpr": 0.431
+        },
+        {
+          "fpr": 0.123,
+          "tpr": 0.486
+        },
+        {
+          "fpr": 0.14,
+          "tpr": 0.514
+        },
+        {
+          "fpr": 0.173,
+          "tpr": 0.528
+        },
+        {
+          "fpr": 0.207,
+          "tpr": 0.542
+        },
+        {
+          "fpr": 0.251,
+          "tpr": 0.583
+        },
+        {
+          "fpr": 0.268,
+          "tpr": 0.653
+        },
+        {
+          "fpr": 0.296,
+          "tpr": 0.681
+        },
+        {
+          "fpr": 0.352,
+          "tpr": 0.75
+        },
+        {
+          "fpr": 0.43,
+          "tpr": 0.778
+        },
+        {
+          "fpr": 0.497,
+          "tpr": 0.819
+        },
+        {
+          "fpr": 0.598,
+          "tpr": 0.875
+        },
+        {
+          "fpr": 0.765,
+          "tpr": 0.944
+        },
+        {
+          "fpr": 1,
+          "tpr": 1
+        }
+      ],
+      "prCurve": [
+        {
+          "recall": 0,
+          "precision": 1
+        },
+        {
+          "recall": 0.083,
+          "precision": 0.857
+        },
+        {
+          "recall": 0.153,
+          "precision": 0.786
+        },
+        {
+          "recall": 0.236,
+          "precision": 0.739
+        },
+        {
+          "recall": 0.292,
+          "precision": 0.677
+        },
+        {
+          "recall": 0.375,
+          "precision": 0.692
+        },
+        {
+          "recall": 0.389,
+          "precision": 0.667
+        },
+        {
+          "recall": 0.431,
+          "precision": 0.62
+        },
+        {
+          "recall": 0.486,
+          "precision": 0.614
+        },
+        {
+          "recall": 0.514,
+          "precision": 0.597
+        },
+        {
+          "recall": 0.528,
+          "precision": 0.551
+        },
+        {
+          "recall": 0.542,
+          "precision": 0.513
+        },
+        {
+          "recall": 0.583,
+          "precision": 0.483
+        },
+        {
+          "recall": 0.653,
+          "precision": 0.495
+        },
+        {
+          "recall": 0.681,
+          "precision": 0.48
+        },
+        {
+          "recall": 0.75,
+          "precision": 0.462
+        },
+        {
+          "recall": 0.778,
+          "precision": 0.421
+        },
+        {
+          "recall": 0.819,
+          "precision": 0.399
+        },
+        {
+          "recall": 0.875,
+          "precision": 0.371
+        },
+        {
+          "recall": 0.944,
+          "precision": 0.332
+        },
+        {
+          "recall": 1,
+          "precision": 0.287
+        }
+      ],
+      "featureImportance": [
+        {
+          "feature": "Tenure Months",
+          "importance": 0.298,
+          "direction": "reduces_risk",
+          "description": "Longer customer tenure provides protective loyalty cushioning"
+        },
+        {
+          "feature": "Network Outages 12M",
+          "importance": 0.287,
+          "direction": "increases_risk",
+          "description": "Repeated service outages drive acute customer dissatisfaction"
+        },
+        {
+          "feature": "Complaints 12M",
+          "importance": 0.24,
+          "direction": "increases_risk",
+          "description": "Customer escalation count indicates severe relationship strain"
+        },
+        {
+          "feature": "Contract: Month-to-Month",
+          "importance": 0.238,
+          "direction": "increases_risk",
+          "description": "Lack of commitment contract drastically increases cancellation flexibility"
+        },
+        {
+          "feature": "Competitor Offer: Yes",
+          "importance": 0.227,
+          "direction": "increases_risk",
+          "description": "Active rival promotions provide immediate alternative options"
+        },
+        {
+          "feature": "Direct Debit: Yes",
+          "importance": 0.209,
+          "direction": "reduces_risk",
+          "description": "Impacts churn propensity via direct debit: yes"
+        },
+        {
+          "feature": "Satisfaction Score 1 10",
+          "importance": 0.208,
+          "direction": "reduces_risk",
+          "description": "Low satisfaction score correlates directly with competitor switching"
+        },
+        {
+          "feature": "Contract: 12 Month",
+          "importance": 0.198,
+          "direction": "reduces_risk",
+          "description": "Impacts churn propensity via contract: 12 month"
+        },
+        {
+          "feature": "Auto Renew: Yes",
+          "importance": 0.178,
+          "direction": "reduces_risk",
+          "description": "Impacts churn propensity via auto renew: yes"
+        },
+        {
+          "feature": "Segment: Small Business",
+          "importance": 0.167,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via segment: small business"
+        },
+        {
+          "feature": "Segment: Enterprise",
+          "importance": 0.143,
+          "direction": "reduces_risk",
+          "description": "Impacts churn propensity via segment: enterprise"
+        },
+        {
+          "feature": "Late Payments 12M",
+          "importance": 0.125,
+          "direction": "reduces_risk",
+          "description": "Impacts churn propensity via late payments 12m"
+        },
+        {
+          "feature": "NPS Score",
+          "importance": 0.109,
+          "direction": "reduces_risk",
+          "description": "Impacts churn propensity via nps score"
+        },
+        {
+          "feature": "Segment: Consumer",
+          "importance": 0.073,
+          "direction": "reduces_risk",
+          "description": "Impacts churn propensity via segment: consumer"
+        },
+        {
+          "feature": "Overage Charges GBP",
+          "importance": 0.067,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via overage charges gbp"
+        },
+        {
+          "feature": "Support Tickets 12M",
+          "importance": 0.055,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via support tickets 12m"
+        },
+        {
+          "feature": "Average Resolution Hours",
+          "importance": 0.046,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via average resolution hours"
+        },
+        {
+          "feature": "Discount Percent",
+          "importance": 0.045,
+          "direction": "reduces_risk",
+          "description": "Impacts churn propensity via discount percent"
+        },
+        {
+          "feature": "Failed Payments 12M",
+          "importance": 0.04,
+          "direction": "increases_risk",
+          "description": "Payment friction and billing difficulties precede involuntary and voluntary churn"
+        },
+        {
+          "feature": "Average Monthly Usage GB",
+          "importance": 0.033,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via average monthly usage gb"
+        },
+        {
+          "feature": "Contract: 24+ Month",
+          "importance": 0.027,
+          "direction": "reduces_risk",
+          "description": "Impacts churn propensity via contract: 24+ month"
+        },
+        {
+          "feature": "Monthly Charge GBP",
+          "importance": 0.005,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via monthly charge gbp"
+        }
+      ],
+      "trainingDurationMs": 40,
+      "isChampion": false,
+      "version": "v1.728",
+      "trainedAt": "2026-11-09T14:45:16.799Z",
+      "trainSampleSize": 999,
+      "testSampleSize": 251
+    },
+    {
+      "algorithm": "Rule Baseline",
+      "accuracy": 0.641,
+      "precision": 0.406,
+      "recall": 0.542,
+      "f1Score": 0.464,
+      "rocAuc": 0.612,
+      "prAuc": 0.54,
+      "brierScore": 0.221,
+      "confusionMatrix": {
+        "trueNegative": 122,
+        "falsePositive": 57,
+        "falseNegative": 33,
+        "truePositive": 39
+      },
+      "rocCurve": [
+        {
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "fpr": 0,
+          "tpr": 0
+        },
+        {
+          "fpr": 0.318,
+          "tpr": 0.542
+        },
+        {
+          "fpr": 0.318,
+          "tpr": 0.542
+        },
+        {
+          "fpr": 0.318,
+          "tpr": 0.542
+        },
+        {
+          "fpr": 0.318,
+          "tpr": 0.542
+        },
+        {
+          "fpr": 0.318,
+          "tpr": 0.542
+        },
+        {
+          "fpr": 0.318,
+          "tpr": 0.542
+        },
+        {
+          "fpr": 0.318,
+          "tpr": 0.542
+        },
+        {
+          "fpr": 0.318,
+          "tpr": 0.542
+        },
+        {
+          "fpr": 0.318,
+          "tpr": 0.542
+        },
+        {
+          "fpr": 0.318,
+          "tpr": 0.542
+        },
+        {
+          "fpr": 1,
+          "tpr": 1
+        },
+        {
+          "fpr": 1,
+          "tpr": 1
+        },
+        {
+          "fpr": 1,
+          "tpr": 1
+        },
+        {
+          "fpr": 1,
+          "tpr": 1
+        }
+      ],
+      "prCurve": [
+        {
+          "recall": 0,
+          "precision": 1
+        },
+        {
+          "recall": 0,
+          "precision": 1
+        },
+        {
+          "recall": 0,
+          "precision": 1
+        },
+        {
+          "recall": 0,
+          "precision": 1
+        },
+        {
+          "recall": 0,
+          "precision": 1
+        },
+        {
+          "recall": 0,
+          "precision": 1
+        },
+        {
+          "recall": 0,
+          "precision": 1
+        },
+        {
+          "recall": 0.542,
+          "precision": 0.406
+        },
+        {
+          "recall": 0.542,
+          "precision": 0.406
+        },
+        {
+          "recall": 0.542,
+          "precision": 0.406
+        },
+        {
+          "recall": 0.542,
+          "precision": 0.406
+        },
+        {
+          "recall": 0.542,
+          "precision": 0.406
+        },
+        {
+          "recall": 0.542,
+          "precision": 0.406
+        },
+        {
+          "recall": 0.542,
+          "precision": 0.406
+        },
+        {
+          "recall": 0.542,
+          "precision": 0.406
+        },
+        {
+          "recall": 0.542,
+          "precision": 0.406
+        },
+        {
+          "recall": 0.542,
+          "precision": 0.406
+        },
+        {
+          "recall": 1,
+          "precision": 0.287
+        },
+        {
+          "recall": 1,
+          "precision": 0.287
+        },
+        {
+          "recall": 1,
+          "precision": 0.287
+        },
+        {
+          "recall": 1,
+          "precision": 0.287
+        }
+      ],
+      "featureImportance": [
+        {
+          "feature": "Satisfaction Score 1 10",
+          "importance": 0.5,
+          "direction": "reduces_risk",
+          "description": "Low satisfaction score correlates directly with competitor switching"
+        },
+        {
+          "feature": "Tenure Months",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Longer customer tenure provides protective loyalty cushioning"
+        },
+        {
+          "feature": "Monthly Charge GBP",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via monthly charge gbp"
+        },
+        {
+          "feature": "Average Monthly Usage GB",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via average monthly usage gb"
+        },
+        {
+          "feature": "Overage Charges GBP",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via overage charges gbp"
+        },
+        {
+          "feature": "Discount Percent",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via discount percent"
+        },
+        {
+          "feature": "Late Payments 12M",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via late payments 12m"
+        },
+        {
+          "feature": "Failed Payments 12M",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Payment friction and billing difficulties precede involuntary and voluntary churn"
+        },
+        {
+          "feature": "Support Tickets 12M",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via support tickets 12m"
+        },
+        {
+          "feature": "Complaints 12M",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Customer escalation count indicates severe relationship strain"
+        },
+        {
+          "feature": "Average Resolution Hours",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via average resolution hours"
+        },
+        {
+          "feature": "Network Outages 12M",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Repeated service outages drive acute customer dissatisfaction"
+        },
+        {
+          "feature": "NPS Score",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via nps score"
+        },
+        {
+          "feature": "Contract: Month-to-Month",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Lack of commitment contract drastically increases cancellation flexibility"
+        },
+        {
+          "feature": "Contract: 12 Month",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via contract: 12 month"
+        },
+        {
+          "feature": "Contract: 24+ Month",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via contract: 24+ month"
+        },
+        {
+          "feature": "Auto Renew: Yes",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via auto renew: yes"
+        },
+        {
+          "feature": "Direct Debit: Yes",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via direct debit: yes"
+        },
+        {
+          "feature": "Competitor Offer: Yes",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Active rival promotions provide immediate alternative options"
+        },
+        {
+          "feature": "Segment: Consumer",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via segment: consumer"
+        },
+        {
+          "feature": "Segment: Small Business",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via segment: small business"
+        },
+        {
+          "feature": "Segment: Enterprise",
+          "importance": 0,
+          "direction": "increases_risk",
+          "description": "Impacts churn propensity via segment: enterprise"
+        }
+      ],
+      "trainingDurationMs": 1,
+      "isChampion": false,
+      "version": "v1.450",
+      "trainedAt": "2026-11-09T14:45:16.829Z",
+      "trainSampleSize": 999,
+      "testSampleSize": 251
+    }
+  ],
+  "championAlgorithm": "Gradient Boosting",
+  "trainedAt": "2026-11-09T14:45:16.829Z",
+  "means": [
+    27.166166166166168,
+    104.01076076076073,
+    205.75175175175175,
+    44.133633633633636,
+    4.406406406406407,
+    0.22622622622622623,
+    0.031031031031031032,
+    1.5505505505505506,
+    0.5075075075075075,
+    22.93993993993994,
+    0.48348348348348347,
+    6.783783783783784,
+    8.577577577577578,
+    0.28428428428428426,
+    0.34934934934934936,
+    0.3663663663663664,
+    0.6646646646646647,
+    0.7777777777777778,
+    0.33233233233233234,
+    0.7057057057057057,
+    0.22522522522522523,
+    0.06906906906906907
+  ],
+  "stds": [
+    15.45591478101942,
+    98.76273276497085,
+    99.82986745894888,
+    105.13168209674208,
+    7.387257310366834,
+    0.7921492114785765,
+    0.17340157480306392,
+    1.145648160171388,
+    0.8014586887191413,
+    11.81227862534231,
+    0.916688494131327,
+    1.4238415016845145,
+    39.665035645900176,
+    0.45107286550319026,
+    0.4767644926570509,
+    0.48181122025319273,
+    0.47210756000182263,
+    0.4157397096415499,
+    0.4710494169605574,
+    0.45572487603829165,
+    0.4177305628601662,
+    0.2535715535445597
+  ]
+}
